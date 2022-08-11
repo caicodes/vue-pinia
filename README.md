@@ -1,6 +1,7 @@
 <div class='flex'>
-
-<img src="./project/pineapple-light.png" width="48%" height="48%" /><img src="./project/pineapple-dark.png"  width="48%" height="48%" />
+<img src="./project/gsap-hello.png" alt="pinia with gsap" width="30%"  />
+<img src="./project/gsap-2.png" alt="pinia with gsap" width="30%"  />
+<img src="./project/gsap-3.png" alt="pinia with gsap" width="30%"  />
 </div>
 
 # 🍍vue-pinia⚡️

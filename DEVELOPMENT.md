@@ -248,4 +248,18 @@ Note: added a quick pineapple bg blur with a trick in CSS...
 
 ### Next, gsap animating the pineapple 🍍
 
+> YES!! Now this is what I've been working towards...
 
+I just dropped the file in, that's it... then included it on `App.vue` and voila!
+Like a helicopter it revv's up... next I am gonna do some SVG animations... and line/stroke animations on svgs... omg... yes!!
+
+Now that the chopper flies in, let's make the pineapple do a little float action up n down... for starters!
+
+
+Gsap was a breeze... working on the pineapple dance...
+
+<div class='flex'>
+<img src="./project/gsap-hello.png" alt="pinia with gsap" width="30%"  />
+<img src="./project/gsap-2.png" alt="pinia with gsap" width="30%"  />
+<img src="./project/gsap-3.png" alt="pinia with gsap" width="30%"  />
+</div>
