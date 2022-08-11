@@ -1,6 +1,6 @@
 <template>
-    <div class="mx-auto max-w-screen-md text-3xl text-center mb-20 flex flex-col gap-4 w-96">
-        <h1>Posts</h1>
+    <div class="mx-auto max-w-screen-md text-2xl text-center mb-20 flex flex-col gap-4 w-96">
+        <h1 class="texgt-4xl font-extrabold">Posts</h1>
         <ul>
             <li>
                 <RouterLink to="/postDetail/id1">Post 1</RouterLink>
@@ -12,7 +12,6 @@
                 <RouterLink to="/postDetail/id3">Post 3</RouterLink>
             </li>
         </ul>
-
         <input placeholder="Auto-focused here..." class="input input-bordered" v-autofocus />
     </div>
 </template>
