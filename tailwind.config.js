@@ -9,6 +9,6 @@ module.exports = {
   },
   plugins: [require('daisyui')],
   daisyui: {
-    themes: ["synthwave", "synthwave", "cmyk"],
+    themes: ["lemonade", "lemonade", "cmyk"],
   },
 }

@@ -5,15 +5,16 @@ import IconVueLogo from './components/icons/IconVueLogo.vue';
 
 <template>
   <header>
-    <div class="wrapper flex flex-col mx-auto w-full items-center justify-center m-24">
+    <div class="wrapper flex flex-col mx-auto w-full items-center justify-center m-8">
       <!-- <img alt="Vue logo" class="logo pb-8" src="@/assets/logo.svg" width="125" height="125" /> -->
-      <div class="w-40 mb-8">
-        <IconVueLogo />
+      <div class="w-40 mb-8 relative">
+        <IconVueLogo /> <span class="text-8xl absolute top-6 right-10 ">🍍</span>
       </div>
       <nav>
         <div class="btn-group">
           <RouterLink class="btn btn-active" to="/">Home</RouterLink>
           <RouterLink class="btn" to="/about">About</RouterLink>
+          <RouterLink class="btn" to="/posts">Posts</RouterLink>
         </div>
       </nav>
     </div>
