@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.pineapple {
+  @apply text-8xl absolute top-4 right-10 z-10;
+}
+.pineapple::before {
+  content: "O";
+  color: yellow;
+  position: absolute;
+  rotate: -58deg;
+  @apply blur-xl -z-10 ml-5 mt-2;
+}

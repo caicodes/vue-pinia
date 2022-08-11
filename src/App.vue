@@ -13,14 +13,15 @@ import ThemeChanger from './components/ThemeChanger.vue';
         <ThemeChanger />
       </div>
       <div class="w-40 mb-8 relative">
-        <IconVueLogo /> <span class="text-8xl absolute top-6 right-10 ">🍍</span>
+        <IconVueLogo />
+        <div id="#pinia" class="pineapple">🍍</div>
       </div>
       <nav>
         <div class="btn-group">
           <RouterLink class="btn btn-primary" to="/">Home</RouterLink>
           <RouterLink class="btn btn-accent" to="/about">About</RouterLink>
           <RouterLink class="btn btn-accent" to="/posts">Posts</RouterLink>
-          <RouterLink class="btn btn-accent text-primary-content" to="/posts">Posts</RouterLink>
+          <RouterLink class="btn btn-accent" to="/posts">Posts</RouterLink>
         </div>
       </nav>
     </div>
