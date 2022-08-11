@@ -1,3 +1,8 @@
+<div class='flex'>
+
+<img src="./project/pineapple-light.png" width="48%" height="48%" /><img src="./project/pineapple-dark.png"  width="48%" height="48%" />
+</div>
+
 # 🍍vue-pinia⚡️
 
 This template should help get you started developing with Vue 3 in Vite.
