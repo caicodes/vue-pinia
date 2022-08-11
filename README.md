@@ -56,12 +56,13 @@ module.exports = {
 }
 ```
 
-👋🤵🦚🥰🦋🏕🎯🏁
+👋🤵🦚🥰🦋🏕🎯🏁🏕 
 
-# 🍍
+# 🍍 🌼 🍋 🍇
 
 ## hot reload is not working
 
 so this just happened and it's a little frustrating.. lost the HMR.. get a little refresh, can manually as well, it's just not reloading the changed component parts
 
+Development Diary updates... coming along and moving to finish the color mode portion... 
 

@@ -12,9 +12,10 @@ import IconVueLogo from './components/icons/IconVueLogo.vue';
       </div>
       <nav>
         <div class="btn-group">
-          <RouterLink class="btn btn-active" to="/">Home</RouterLink>
-          <RouterLink class="btn" to="/about">About</RouterLink>
-          <RouterLink class="btn" to="/posts">Posts</RouterLink>
+          <RouterLink class="btn btn-primary" to="/">Home</RouterLink>
+          <RouterLink class="btn btn-accent" to="/about">About</RouterLink>
+          <RouterLink class="btn btn-accent" to="/posts">Posts</RouterLink>
+          <RouterLink class="btn btn-accent text-primary-content" to="/posts">Posts</RouterLink>
         </div>
       </nav>
     </div>

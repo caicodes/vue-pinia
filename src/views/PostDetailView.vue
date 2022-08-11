@@ -11,8 +11,8 @@
 
             <div class="flex flex-col gap-2 mt-4">
 
-                <button class="btn" @click="showPostId">show post id</button>
-                <button class="btn" @click="goHomeIn3Seconds">go in 3</button>
+                <button class="btn btn-secondary" @click="showPostId">show post id</button>
+                <button class="btn btn-accent" @click="goHomeIn3Seconds">go in 3</button>
                 <RouterLink class="btn btn-primary mt-4" to="/posts">Back to Posts</RouterLink>
 
             </div>

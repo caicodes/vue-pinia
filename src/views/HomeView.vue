@@ -17,9 +17,10 @@
 
       <div class="mb-2 text-center">{{ oddOrEven }}</div>
       <!-- title edit -->
-      <div class="form-control">
-        <label class="input-group">
-          <span>Title</span>
+      <div class="form-control mb-8">
+        <label class="input-group mx-auto justify-center 
+        ">
+          <span class="bg-primary text-primary-content font-bold uppercase">Title</span>
           <input v-model="counterData.title" type="text" placeholder="New title..." class="input input-bordered"
             v-autofocus />
         </label>
