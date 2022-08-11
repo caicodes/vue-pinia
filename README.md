@@ -71,3 +71,10 @@ so this just happened and it's a little frustrating.. lost the HMR.. get a littl
 
 Development Diary updates... coming along and moving to finish the color mode portion... 
 
+### Fully working with pinia...
+
+Setup and using two stores with bindings... nice...
+
+<img src="./project/pinia-dev-2.png" />
+
+Next.. gsap

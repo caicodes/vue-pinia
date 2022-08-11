@@ -167,9 +167,6 @@ module.exports = {
 ```
 
 
-
-
-
 # 🍍pinia
 
 ## Getting Started...
@@ -217,3 +214,38 @@ export const useCounterStore = defineStore({
 Live now and visible via dev tools..
 
 <img src="./project/pinia-dev.png" />
+
+### Fully working with pinia...
+
+<img src="./project/pinia-dev-2.png" />
+
+
+## Time for a Little GSAP Now?
+
+GSAP is already loaded from `yarn add gsap` ...just need to setup with animations, looking to do the pineapple...
+
+Note: added a quick pineapple bg blur with a trick in CSS...
+
+```css 
+/* tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pineapple {
+  @apply text-8xl absolute top-4 right-10 z-10;
+}
+.pineapple::before {
+  @apply blur-xl -z-10 ml-5 mt-2;
+  content: "O";
+  color: yellow; /* not theme ready yet */
+  position: absolute;
+  rotate: -58deg;
+}
+```
+
+> Nice trick, nothing but css, need to make it fully themeable at some point... 
+
+### Next, gsap animating the pineapple 🍍
+
+
