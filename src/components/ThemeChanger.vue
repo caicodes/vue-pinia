@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useColorMode, useCycleList } from '@vueuse/core'
-import { liveThemes } from '../constants/';
+import { liveThemes } from '../constants/theme';
 
 const mode = useColorMode({
     attribute: 'data-theme',

@@ -171,3 +171,49 @@ module.exports = {
 
 
 # 🍍pinia
+
+## Getting Started...
+
+Pinia State management... just getting started, here's what it has to offer over vuex...
+
+- all components access
+- better than vuex
+- optimized for composition api
+- this is the new standard and
+- run this in nuxt3 to dev in
+- parallel...
+
+```javascript
+// stores/counter.js
+
+import { defineStore } from "pinia";
+
+export const useCounterStore = defineStore({
+  id: "counter",
+  state: () => ({
+    counter: 0,
+  }),
+  getters: {
+    doubleCount: (state) => state.counter * 2,
+  },
+  actions: {
+    increment() {
+      this.counter++;
+    },
+  },
+});
+
+/**
+ *
+ * pinia
+ *  state management
+ *
+ */
+
+```
+
+## Installed and Setup...
+
+Live now and visible via dev tools..
+
+<img src="./project/pinia-dev.png" />
