@@ -146,3 +146,10 @@ module.exports = {
 ### themes... easy! 
 
 <img src='./project/counter.png' width='50%' />
+
+# and the current final version of this out of the box...
+
+<img src='./project/final-light.png' width='50%' /><img src='./project/final-dark.png' width='50%' />
+
+[Check out the live demo for vue-pinia](https://vue-pinia.netlify.app/)
+
