@@ -5,21 +5,26 @@
       <div
         class="mx-auto max-w-screen-md text-3xl text-center mb-10 justify-center"
       >
-        <h1>post details</h1>
+        <h2 class="text-2xl">{{ pageStore.postsTitle }}</h2>
+        <h1>{{ $route.params.id }} details</h1>
       </div>
       <!-- post details -->
-      <h1>And this is a post detail page</h1>
-      <p>display contents... with id of {{ $route.params.id }}</p>
-
+      <div class="p-4">
+        <p>
+          And this is a post detail page which is displaying the
+          {{ pageStore.postsTitle }} contents... with an id of
+          {{ $route.params.id }}
+        </p>
+      </div>
       <div class="flex flex-col gap-2 mt-4">
         <button class="btn btn-secondary" @click="showPostId">
-          show post id
+          show {{ pageStore.postsTitle }} id
         </button>
         <button class="btn btn-accent" @click="goHomeIn3Seconds">
           go in 3
         </button>
         <RouterLink class="btn btn-primary mt-4" to="/posts"
-          >Back to Posts</RouterLink
+          >Back to {{ pageStore.postsTitle }}</RouterLink
         >
       </div>
     </div>
@@ -28,7 +33,8 @@
 
 <script setup>
 import { useRoute, useRouter } from "vue-router";
-
+import { usePageStore } from "../stores/page";
+const pageStore = usePageStore();
 const route = useRoute();
 const router = useRouter();
 

@@ -1,7 +1,7 @@
 <template>
   <div
     ref="hello"
-    class="text-2xl md:text-4xl font-extrabold text-primary-content bg-primary px-4 md:px-8 py-4 rounded-full shadow-2xl"
+    class="mt-8 text-2xl md:text-4xl font-extrabold text-primary-content bg-primary px-4 md:px-8 py-4 rounded-full shadow-2xl"
   >
     vue3 with pinia🍍 + daisyui🌼 + gsap🎉
   </div>

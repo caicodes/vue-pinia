@@ -11,6 +11,8 @@ export const usePageStore = defineStore({
   state: () => ({
     title: "welcome",
     appTitle: "pinia counter",
+    pageTitle: "yo nigga",
+    postsTitle: "boooya",
   }),
   actions: {},
   getter: {},
