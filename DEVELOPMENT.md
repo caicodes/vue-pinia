@@ -263,3 +263,8 @@ Gsap was a breeze... working on the pineapple dance...
 <img src="./project/gsap-2.png" alt="pinia with gsap" width="30%"  />
 <img src="./project/gsap-3.png" alt="pinia with gsap" width="30%"  />
 </div>
+
+
+👋🤵🦚🥰🦋🏕🎯🏁🏕 
+# 
+🍋🍇
