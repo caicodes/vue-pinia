@@ -143,6 +143,6 @@ module.exports = {
 
 > also, for daisyui themes, being locally loaded for easy customization of the full set of 29 daisyui themes as well as an easy way to add as many as you like...
 
-### themes... easy!
+### themes... easy! 
 
 <img src='./project/counter.png' width='50%' />
